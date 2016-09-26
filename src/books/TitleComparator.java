@@ -11,6 +11,6 @@ public class TitleComparator implements Comparator<Book> {
 	    @Override
 	    public Comparator<Book> reversed() {
 	        return (o1, o2) -> compare(o2, o1);
-	    }
+	   }
 	 }
 
