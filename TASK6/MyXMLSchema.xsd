@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+ targetNamespace="http://www.example.org/MyXMLSchema" 
+ xmlns:tns="http://www.example.org/MyXMLSchema" 
+ elementFormDefault="qualified">
+
+ 	<element name="menuList">
+		<complexType>
+			<sequence>
+				<element name="dishSelection" type="tns:DishSelection" minOccurs="1" maxOccurs="12" />
+			</sequence>
+		</complexType>
+	</element>
+
+	<complexType name="DishSelection">
+		<sequence>
+			<element name="dish" type="tns:dish" minOccurs="0" maxOccurs="unbounded" />
+		</sequence>
+		<attribute name="dishType" use="required">
+			<simpleType>
+				<restriction base="string">
+					<enumeration value="coldSnacks"></enumeration>
+					<enumeration value="hotSnacks"></enumeration>
+					<enumeration value="breakfastMeal"></enumeration>
+					<enumeration value="salads"></enumeration>
+					<enumeration value="soups"></enumeration>
+					<enumeration value="fishMeal"></enumeration>
+					<enumeration value="meatMeal"></enumeration>
+					<enumeration value="garnishes"></enumeration>
+					<enumeration value="barbecues"></enumeration>
+					<enumeration value="mealFromChef"></enumeration>
+					<enumeration value="attachment"></enumeration>
+					<enumeration value="desserts"></enumeration>
+				</restriction>
+			</simpleType>
+		</attribute>
+	</complexType>
+
+	<complexType name="dish">
+		<sequence>
+			<element name="photo" type="anyURI" />
+			<element name="title" type="string" />
+			<element name="specification" type="tns:specification" />
+		</sequence>
+	</complexType>
+
+	<complexType name="specification">
+		<sequence>
+			<element name="descriptionSelection" type="tns:descriptionSelection"/>
+			<element name="portionSelection" type="tns:portionSelection"/>
+			<element name="priceSelection" type="tns:priceSelection"/>
+		</sequence>
+	</complexType>
+	
+	<complexType name="descriptionSelection">
+		<sequence>
+			<element name="description" type="string"/>
+		</sequence>
+	</complexType>
+	
+	<complexType name="portionSelection">
+		<sequence>
+			<element name="portion" type="int"/>
+		</sequence>
+	</complexType>
+	
+	<complexType name="priceSelection">
+		<sequence>
+			<element name="price" type="int"/>
+		</sequence>
+	</complexType>
+</schema>

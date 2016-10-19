@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menuList xmlns:tns="http://www.example.org/MyXMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/MyXMLSchema MyXMLSchema.xsd ">
+	<dishSelection dishType="coldSnacks">
+		<dish>
+			<photo>http://tempuri.org</photo>
+			<title>Ассорти рыбное</title>
+			<specification>
+				<descriptionSelection>
+					<description>Слабосоленая форель, семга</description>
+				</descriptionSelection>
+				<portionSelection>
+					<portion>100</portion>
+					<portion>20</portion>
+					<portion>15</portion>
+				</portionSelection>
+				<priceSelection>
+					<price>0</price>
+				</priceSelection>
+			</specification>
+		</dish>
+		<dish>
+			<photo>http://tempuri.org</photo>
+			<title>Тарталетки с красной икрой</title>
+			<specification>
+				<descriptionSelection>
+					<description>Тарталетки с красной икрой</description>
+				</descriptionSelection>
+				<portionSelection>
+					<portion>60</portion>
+					<portion>50</portion>
+				</portionSelection>
+				<priceSelection>
+					<price />
+				</priceSelection>
+			</specification>
+		</dish>
+		<dish>
+			<photo>http://tempuri.org</photo>
+			<title>Закуски по-русски</title>
+			<specification>
+				<descriptionSelection>
+					<description>Кусочки атлантической сельди с отварным картофелем,
+						леком, лимоном и зеленью</description>
+				</descriptionSelection>
+				<portionSelection>
+					<portion>70</portion>
+					<portion>50</portion>
+					<portion>2</portion>
+					<portion>10</portion>
+				</portionSelection>
+				<priceSelection>
+					<price />
+				</priceSelection>
+			</specification>
+		</dish>
+	</dishSelection>
+	<dishSelection dishType="hotSnacks">
+		<dish>
+			<photo>http://tempuri.org</photo>
+			<title>Либио с шампиньонами</title>
+			<specification>
+				<descriptionSelection>
+					<description>Фасоль с шампиньонами и грецким орехом</description>
+				</descriptionSelection>
+				<portionSelection>
+					<portion>150</portion>
+					<portion>5</portion>
+				</portionSelection>
+				<priceSelection>
+					<price>105</price>
+				</priceSelection>
+			</specification>
+		</dish>	
+		<dish>
+			<photo>http://tempuri.org</photo>
+			<title>Жульен</title>
+			<specification>
+				<descriptionSelection>
+					<description>С курицей</description>
+					<description>С грибами</description>
+				</descriptionSelection>
+				<portionSelection>
+					<portion>55</portion>
+					<portion>20</portion>
+				</portionSelection>
+				<priceSelection>
+					<price>145</price>
+					<price>155</price>
+				</priceSelection>
+			</specification>
+		</dish>	
+		<dish>
+			<photo>http://tempuri.org</photo>
+			<title>Сэндвич</title>
+			<specification>
+				<descriptionSelection>
+					<description>С колбасой, ветчиной,сыром</description>
+				</descriptionSelection>
+				<portionSelection>
+					<portion>1</portion>
+				</portionSelection>
+				<priceSelection>
+					<price>165</price>
+				</priceSelection>
+			</specification>
+		</dish>	
+	</dishSelection>
+	<dishSelection dishType="breakfastMeal">
+		<dish>
+			<photo>http://tempuri.org</photo>
+			<title>Глазунья</title>
+			<specification>
+				<descriptionSelection>
+					<description>Глазунья с ветчиной</description>
+				</descriptionSelection>
+				<portionSelection>
+					<portion>15</portion>
+				</portionSelection>
+				<priceSelection>
+					<price/>
+				</priceSelection>
+			</specification>
+		</dish>	
+		<dish>
+			<photo>http://tempuri.org</photo>
+			<title>Омлет</title>
+			<specification>
+				<descriptionSelection>
+					<description> </description>
+				</descriptionSelection>
+				<portionSelection>
+					<portion>100</portion>
+				</portionSelection>
+				<priceSelection>
+					<price> </price>
+				</priceSelection>
+			</specification>
+		</dish>	
+		<dish>
+			<photo>http://tempuri.org</photo>
+			<title>Блины</title>
+			<specification>
+				<descriptionSelection>
+					<description>Блинчики с вареньем</description>
+				</descriptionSelection>
+				<portionSelection>
+					<portion>150</portion>
+				</portionSelection>
+				<priceSelection>
+					<price> </price>
+				</priceSelection>
+			</specification>
+		</dish>	
+	</dishSelection>
+</menuList>
