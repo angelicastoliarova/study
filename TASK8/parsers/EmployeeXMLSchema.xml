@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:employees xmlns:tns="http://www.example.org/EmployeeXMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/EmployeeXMLSchema EmployeeXMLSchema.xsd ">
+	<tns:employee id="0100">
+		<tns:firstName>tns:Siarhei </tns:firstName>
+		<tns:lastName>tns:Yuranau</tns:lastName>
+		<tns:location>tns:Russia</tns:location>
+	</tns:employee>
+	<tns:employee id="0101">
+		<tns:firstName>tns:Aliaksei </tns:firstName>
+		<tns:lastName>tns:Siarheyeu</tns:lastName>
+		<tns:location>tns:China</tns:location>
+	</tns:employee>
+	<tns:employee id="0102">
+		<tns:firstName>tns:Valery</tns:firstName>
+		<tns:lastName>tns:Yatsynovich</tns:lastName>
+		<tns:location>tns:America</tns:location>
+	</tns:employee>
+</tns:employees>

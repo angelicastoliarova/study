@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.example.org/EmployeeXMLSchema" 
+xmlns:tns="http://www.example.org/EmployeeXMLSchema" 
+elementFormDefault="qualified">
+
+  <element name="employees">
+    <complexType>
+      <sequence>
+        <element name="employee" maxOccurs="unbounded" minOccurs="0">
+          <complexType>
+            <sequence>
+              <element type="string" name="firstName"/>
+              <element type="string" name="lastName"/>
+              <element type="string" name="location"/>
+            </sequence>
+            <attribute type="byte" name="id" use="optional"/>
+          </complexType>
+        </element>
+      </sequence>
+    </complexType>
+  </element>
+</schema>
