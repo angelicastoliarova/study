@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:tests xmlns:tns="http://www.example.org/NewXMLSchema"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.example.org/NewXMLSchema ../../../../by/NewXMLSchema.xsd ">
+  <tns:test number="1">
+    <tns:COMMAND_REGISTRATION>tns:Registration</tns:COMMAND_REGISTRATION>
+    <tns:COMMAND_AUTHORIZATION>tns:Authentication</tns:COMMAND_AUTHORIZATION>
+    <tns:COMMAND_ADD_NEW_QUI>tns:AddNewQui</tns:COMMAND_ADD_NEW_QUI>
+    <tns:COMMAND_FIND_QUI_BY_TEST>tns:FindQuiByTest</tns:COMMAND_FIND_QUI_BY_TEST>
+    <tns:COMMAND_FORM_NEW_TEST>tns:FormNewTest</tns:COMMAND_FORM_NEW_TEST>
+    <tns:COMMAND_SHOW_ALL_TESTS>tns:ShowAllTests</tns:COMMAND_SHOW_ALL_TESTS>
+    <tns:IdQuetions>16</tns:IdQuetions>
+    <tns:Quetion>tns:what collections do you know</tns:Quetion>
+    <tns:IdSubject>900</tns:IdSubject>
+    <tns:Subject>tns:java</tns:Subject>
+    <tns:IdTest>8</tns:IdTest>
+    <tns:IdCorrectAnswer>7</tns:IdCorrectAnswer>
+    <tns:CorrectAnswer>tns:set,map,list</tns:CorrectAnswer>
+    <tns:LOGIN>tns:user</tns:LOGIN>
+    <tns:PASSWORD>tns:user</tns:PASSWORD>
+    <tns:ROLE>tns:student</tns:ROLE>
+    <tns:TESTANSWER>0</tns:TESTANSWER>
+  </tns:test>
+</tns:tests>

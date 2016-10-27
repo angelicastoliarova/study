@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/NewXMLSchema"
+	xmlns:tns="http://www.example.org/NewXMLSchema" elementFormDefault="qualified">
+	<element name="tests">
+		<complexType>
+			<sequence>
+				<element name="test" type="tns:data" minOccurs="1"
+					maxOccurs="10" />
+			</sequence>
+		</complexType>
+	</element>
+
+	<complexType name="data">
+		<sequence>
+
+			<element name="COMMAND_REGISTRATION" type="string" />
+			<element name="COMMAND_AUTHORIZATION" type="string" />
+			<element name="COMMAND_ADD_NEW_QUI" type="string" />
+			<element name="COMMAND_FIND_QUI_BY_TEST" type="string" />
+			<element name="COMMAND_FORM_NEW_TEST" type="string" />
+			<element name="COMMAND_SHOW_ALL_TESTS" type="string" />
+			<element name="IdQuetions" type="int" />
+			<element name="Quetion" type="string" />
+			<element name="IdSubject" type="int" />
+			<element name="Subject" type="string" />
+			<element name="IdTest" type="int" />
+			<element name="IdCorrectAnswer" type="int" />
+			<element name="CorrectAnswer" type="string" />
+			<element name="LOGIN" type="string" />
+			<element name="PASSWORD" type="string" />
+			<element name="ROLE" type="string" />
+			<element name="TESTANSWER" type="int" />
+
+
+		</sequence>
+
+		<attribute name="number" use="required">
+		</attribute>
+
+	</complexType>
+
+</schema>

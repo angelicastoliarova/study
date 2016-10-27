@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="false">
+    <test name="connectToBD">
+    <parameter name="driver" value="com.mysql.jdbc.Driver()"/>  
+    <parameter name="url" value="jdbc:mysql://localhost:3306/testingsystem?useSSL=false"/>    
+    <parameter name="username" value="root"/>   
+    <parameter name="password" value="74nwCAD2ANGELica79"/>     
+        <classes>
+            <class name="by.tc.st.PositiveTest" >
+            
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
